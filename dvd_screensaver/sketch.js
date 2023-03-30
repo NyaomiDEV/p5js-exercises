@@ -9,10 +9,6 @@ let _color;
 // quanti pixel in un secondo?
 const speed = 300;
 
-function scoped(f){
-	push(); f(); pop();
-}
-
 function colorRand(){
 	return color(
 		Math.random() * 256,
@@ -22,7 +18,7 @@ function colorRand(){
 }
 
 function preload() {
-	img = loadImage("logo.svg");
+	img = loadImage("logo.png");
 }
 
 function setup() {
@@ -30,7 +26,6 @@ function setup() {
 	noStroke();
 
 	__h = (img.height * __w) / img.width;
-	console.log(__w, __h, img.width, img.height);
 
 	currentX = Math.random() * width;
 	currentY = Math.random() * height;
@@ -61,8 +56,6 @@ function draw(){
 
 	background(0);
 
-	scoped(() => {
-		tint(_color);
-		image(img, currentX - __w / 2, currentY - __h / 2, __w, __h);
-	})
+	tint(_color);
+	image(img, currentX - __w / 2, currentY - __h / 2, __w, __h);
 }
