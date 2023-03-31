@@ -7,9 +7,6 @@ const maxRadius = 100;
 // pixels per second
 const maxSpeed = 500;
 
-// last positions for trail
-const lastPositions = 100;
-
 const balls = [];
 
 class Ball {

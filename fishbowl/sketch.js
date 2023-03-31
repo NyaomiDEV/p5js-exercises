@@ -8,9 +8,6 @@ const maxHeight = 20;
 // pixels per second
 const maxSpeed = 500;
 
-// last positions for trail
-const lastPositions = 100;
-
 const fish = [];
 
 class Fish {
