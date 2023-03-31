@@ -67,17 +67,17 @@ function setup() {
 	ellipseMode(CORNER);
 
 	for(let i = 0; i < ballsNum; i++){
-		const factor = random(0.05, 1);
+		const z = random(0.05, 1);
 
-		const radius = maxRadius * factor;
-		const speed = maxSpeed * factor;
-		const alpha = 127 * (1 - factor);
+		const radius = maxRadius * z;
+		const speed = maxSpeed * z;
+		const alpha = 127 * (1 - z);
 
 		balls.push(
 			new Ball(
 				random(-radius, width),
 				random(-radius, height),
-				factor,
+				z,
 				radius * 2,
 				radius * 2,
 				speed,

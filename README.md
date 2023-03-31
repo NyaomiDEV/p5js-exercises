@@ -8,6 +8,7 @@ View them by clicking on the links:
 - [Dot grid (with JS math)](https://nyaomidev.github.io/p5js-exercises/dot_grid_with_js_math)
 - [DVD Screensaver](https://nyaomidev.github.io/p5js-exercises/dvd_screensaver)
 - [Eclipse](https://nyaomidev.github.io/p5js-exercises/eclipse)
+- [Fishbowl](https://nyaomidev.github.io/p5js-exercises/fishbowl)
 - [Pacman](https://nyaomidev.github.io/p5js-exercises/pacman)
 - [Simple Mouse Press](https://nyaomidev.github.io/p5js-exercises/simple_mouse_press)
 - [Simple Shapes](https://nyaomidev.github.io/p5js-exercises/simple_shapes)
