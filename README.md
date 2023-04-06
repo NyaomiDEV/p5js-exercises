@@ -4,6 +4,7 @@ View them by clicking on the links:
 - [Bouncy ball](https://nyaomidev.github.io/p5js-exercises/bouncy_ball)
 - [Bouncy ball two](https://nyaomidev.github.io/p5js-exercises/bouncy_ball_two)
 - [Bouncy line](https://nyaomidev.github.io/p5js-exercises/bouncy_line)
+- [Breathing ball](https://nyaomidev.github.io/p5js-exercises/breathing_ball)
 - [Dot grid](https://nyaomidev.github.io/p5js-exercises/dot_grid)
 - [Dot grid (with JS math)](https://nyaomidev.github.io/p5js-exercises/dot_grid_with_js_math)
 - [Dot grid (with predefined dots)](https://nyaomidev.github.io/p5js-exercises/dot_grid_with_predefined_dots)
